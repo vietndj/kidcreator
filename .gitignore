@@ -1,0 +1,13 @@
+node_modules
+dist
+.env
+.env.local
+.env.production
+.env.prod_new
+.vercel
+.DS_Store
+.tsbuildinfo
+*.txt
+*.py
+vie.traineddata
+.env*
