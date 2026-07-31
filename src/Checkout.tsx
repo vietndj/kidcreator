@@ -35,7 +35,7 @@ const LANTAN_FAQS = [
   },
   {
     q: "5. \"Nếu trong quá trình làm gặp rắc rối kỹ thuật thì có ai hỗ trợ không?\"",
-    a: "Đích thân giảng viên Viet Mac và đội ngũ sẽ hỗ trợ 1-1 qua Zalo & nhóm kín Skool. Bất kỳ vướng mắc nào về cài đặt Extension hay chạy Prompt Gemini đều được gỡ rối ngay."
+    a: "Đích thân giảng viên Nguyễn Đức Việt và đội ngũ sẽ hỗ trợ 1-1 qua Zalo & nhóm kín. Bất kỳ vướng mắc nào của phụ huynh hay bé đều được giải đáp ngay."
   }
 ];
 
@@ -522,7 +522,7 @@ function GuaranteeBox() {
       <div style={{ background: t.card2, border: `1px solid ${t.accent}33`, borderRadius: Math.max(8, t.cardRadius - 4), padding: "16px 18px" }}>
         <p style={{ fontSize: 15, fontWeight: 500, color: t.accent, marginBottom: 8 }}>🛡️ Đồng hành & Gỡ rối 1-1 cùng tác giả</p>
         <p style={{ fontSize: 15, color: t.textBody ?? "#666", lineHeight: 1.65, margin: 0 }}>
-          {c.guarantee || "Bất kể bạn gặp khó khăn ở bước nào — từ cài đặt Extension, khóa mặt AI đến dựng CapCut — nhắn Zalo trực tiếp cho Viet Mac để được gỡ rối 1-1 ngay."}
+          {c.guarantee || "Bất kể bé hay bố mẹ gặp khó khăn ở bước nào — nhắn Zalo trực tiếp cho Nguyễn Đức Việt để được hỗ trợ 1-1 ngay."}
         </p>
       </div>
     </div>
@@ -804,7 +804,7 @@ function CheckoutContent() {
                 { 
                   name: "Quốc Bảo", 
                   role: "Kinh doanh & Phân phối Mỹ phẩm (TP. HCM)", 
-                  text: "Lúc đầu tưởng làm phim hoạt hình AI phải rườm rà phức tạp lắm, ai ngờ làm theo đúng video hướng dẫn bấm 1-Click trên Extension là xong. Ghép thêm kho nhạc Ghibli lồng vào CapCut làm video chạy Ads vừa nghệ thuật vừa giữ chân người xem tuyệt đối. Chi phí Ads giảm một nửa mà khách chốt đều đặn. Cảm ơn Viet Mac!" 
+                  text: "Lúc đầu tưởng làm phim hoạt hình AI phải rườm rà phức tạp lắm con không làm được, ai ngờ có bài hướng dẫn CapCut Mobile cho học sinh rồi bấm 1-Click trên Extension là xong. Bé tự tin làm bài thuyết trình môn Lịch sử ở trường được khen nức nở. Cảm ơn thầy Việt!" 
                 },
               ]).map((testimonial: any, i: number) => (
                 <div key={i} style={{ borderTop: i === 0 ? "none" : `1px solid ${t.line}`, paddingTop: i === 0 ? 0 : 16, marginBottom: 16 }}>

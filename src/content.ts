@@ -328,7 +328,7 @@ export const DEFAULT_CONTENT: PageContent = {
     {
       id: "04",
       title: "Quyền Truy Cập Trạm Kỹ Thuật Hỗ Trợ 1-1 Cho Phụ Huynh",
-      desc: "Nơi hỗ trợ cài đặt và gỡ rối kỹ thuật 1-1 trực tiếp từ tác giả Viet Mac cho bố mẹ và bé."
+      desc: "Nơi hỗ trợ cài đặt và gỡ rối kỹ thuật 1-1 trực tiếp từ đội ngũ chuyên gia cho bố mẹ và bé."
     }
   ],
 
@@ -383,7 +383,7 @@ export const DEFAULT_CONTENT: PageContent = {
     },
     {
       q: "5. \"Bố mẹ hoặc bé gặp khó khăn thì có ai hỗ trợ không?\"",
-      a: "Đích thân tác giả Viet Mac và đội ngũ sẽ hỗ trợ 1-1 qua Zalo & Trạm Kỹ Thuật. Bất kỳ vướng mắc nào của phụ huynh hay bé đều được giải đáp nhanh chóng."
+      a: "Đích thân tác giả Nguyễn Đức Việt và đội ngũ sẽ hỗ trợ 1-1 qua Zalo & Trạm Kỹ Thuật. Bất kỳ vướng mắc nào của phụ huynh hay bé đều được giải đáp nhanh chóng."
     }
   ],
 

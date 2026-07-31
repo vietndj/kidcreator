@@ -1,26 +1,26 @@
 import { useEffect, useState } from "react";
 
 const PROOFS = [
-  // NHÓM 1: CÀI ĐẶT EXTENSION & KÍCH HOẠT SẢN PHẨM
-  "Tuấn Anh (Hà Nội) vừa cài đặt thành công Trợ lý GIBI AI Studio trên Chrome 🎬",
-  "Chị Lan (HCM) vừa kích hoạt trọn bộ Trợ lý GIBI AI + 5 Quà tặng độc quyền 🎁",
-  "Hoàng Dũng (Đà Nẵng) vừa tải về Thư viện Âm thanh Hoạt hình Ghibli Độc quyền 🎵",
-  "Trang Phạm (Hải Phòng) vừa lưu Cheat Sheet Phím tắt & Lệnh GIBI AI Studio ⚡",
-  "Thảo Vy (Đà Lạt) vừa mở khóa Bộ Video Hướng Dẫn Dựng Phim Ghibli bằng CapCut ✂️",
+  // NHÓM 1: ĐĂNG KÝ HỌC & KÍCH HOẠT
+  "Chị Thanh Hà (Hà Nội) vừa đăng ký bộ AI Kid Creator cho bé Bảo Nam (Lớp 5) 🎓",
+  "Anh Hoàng Nam (HCM) vừa tải về Khóa Dựng Phim CapCut Mobile Dành Cho Học Sinh 📱",
+  "Chị Ngọc Bích (Đà Nẵng) vừa nhận Kho 30 Mẫu Kịch Bản Ước Mơ cho bé 🎁",
+  "Chị Phương (Đồng Nai) vừa quét QR thanh toán tự động, nhận Link Trợ Lý AI Kid Creator ⚡",
+  "Anh Tuấn Anh (Hải Phòng) vừa mở khóa Bộ Thư Viện Âm Thanh Hoạt Hình Đáng Yêu 🎵",
 
-  // NHÓM 2: TIẾN ĐỘ THỰC HÀNH & KẾT QUẢ
-  "Anh Minh (Hà Nội) vừa tạo xong Nhân vật Ghibli độc bản Khóa mặt bất biến 100% 👤",
-  "Vy (Chủ Spa - Bình Dương) vừa xuất phim hoạt hình Ghibli 16 khung hình đầu tiên 🎞️",
-  "Đức Dũng (HCM) đang xem hướng dẫn Quét Live-action sang Anime 1-Click 🚀",
-  "Chị Mai (Bắc Ninh) vừa tạo chuyển động mượt mà qua Google Flow Veo 3 🎥",
-  "Team Media Tuấn (Cần Thơ) đang ghép nhạc Ghibli vào CapCut cho video triệu view 🎶",
+  // NHÓM 2: SẢN PHẨM & KẾT QUẢ CỦA BÉ
+  "Bé Minh Anh (Lớp 6 - HCM) vừa xuất bản video hoạt hình 2D đầu tay đăng YouTube Shorts 🎬",
+  "Bé Khánh An (Lớp 4 - Đà Nẵng) vừa tạo xong Nhân vật Anime cá nhân hóa độc bản 👤",
+  "Anh Đức Dũng (Hà Nội) vừa cùng con nộp bài thuyết trình môn Lịch sử bằng phim AI 🚀",
+  "Chị Mai (Bắc Ninh) vừa xem bé tự ghép nhạc hoạt hình vào CapCut Mobile 🎶",
+  "Bé Đức Anh (Lớp 5 - Cần Thơ) vừa tạo xong video hoạt hình 4 phân cảnh ước mơ 🎞️",
 
-  // NHÓM 3: GIAO DỊCH & KHO PROMPT SKOOL
-  "Hải Đăng (Hà Nội) vừa nhận quyền truy cập Kho Prompt & Trạm Bảo Hành GIBI 🏛️",
-  "Chị Trâm Anh (Đà Lạt) vừa thanh toán 149.000đ, nhận ID kích hoạt sau 1 phút ⚡",
-  "Anh Sơn (Nha Trang) vừa được tác giả Viet Mac hỗ trợ Zalo 1-1 gỡ rối cài Extension 🤝",
-  "Bác sĩ Khánh (Hà Nội) vừa xuất bản video hoạt hình Ghibli kể chuyện cực nghệ thuật 🌟",
-  "Chị Phương (Đồng Nai) vừa quét QR thanh toán tự động, nhận Link Extension & Kho Prompt ⚡"
+  // NHÓM 3: ĐỒNG HÀNH & KỸ THUẬT
+  "Anh Sơn (Nha Trang) vừa được đội ngũ chuyên gia hỗ trợ Zalo 1-1 cài đặt cho bé 🤝",
+  "Bác sĩ Khánh (Hà Nội) vừa đăng ký gói Kid Creator cho 2 bé nhà mình 🌟",
+  "Chị Trâm Anh (Đà Lạt) vừa nhận quyền truy cập Trạm Kỹ Thuật Hỗ Trợ 1-1 Cho Phụ Huynh 🏛️",
+  "Chị Thảo Vy (Hà Nội) vừa thanh toán 149.000đ, nhận tài liệu học cho bé sau 1 phút ⚡",
+  "Bé Hoàng Dũng (Lớp 7 - Hải Dương) vừa tự tin đạt điểm 10 thuyết trình nhờ video phim AI 🏆"
 ];
 
 const TIME_LABELS = [
